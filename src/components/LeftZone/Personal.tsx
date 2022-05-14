@@ -22,7 +22,16 @@ export function Personal() {
         </li>
         <li>
           <Title title="Languages" />
-          French Native, English fluent
+          French Native, English Fluent
+        </li>
+        <li>
+          <Title title="Linkedin" />
+          <a
+            className="underline"
+            href="https://www.linkedin.com/in/florian-duros-aaa04545/"
+          >
+            Florian Duros
+          </a>
         </li>
       </ul>
     </Container>

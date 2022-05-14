@@ -1,4 +1,5 @@
 import { PropsWithChildren } from "react";
+import { Title } from "../Title";
 
 type ProfileProps = PropsWithChildren<{
   text: string;
@@ -8,9 +9,7 @@ type ProfileProps = PropsWithChildren<{
 export function Container({ className, text, children }: ProfileProps) {
   return (
     <div className={className}>
-      <h3 className="border-b-2 border-amber-600 desktop:text-3xl mobile:font-bold desktop:pb-2 desktop:mb-4 mobile:mb-2">
-        {text}
-      </h3>
+      <Title title={text} />
       {children}
     </div>
   );

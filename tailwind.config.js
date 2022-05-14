@@ -10,6 +10,7 @@ module.exports = {
       width: {
         header: "1000px",
         leftZone: "400px",
+        mainZone: "600px",
       },
     },
   },
