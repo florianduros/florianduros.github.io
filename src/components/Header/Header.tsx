@@ -27,7 +27,7 @@ export function Header() {
         </div>
       </div>
       <button
-        className="absolute underline m-2 top-0 right-0 text-xs"
+        className="absolute underline m-2 top-0 right-0 text-xs print:hidden"
         onClick={() => window.print()}
       >
         <MdPrint className="inline text-base mr-1" />
