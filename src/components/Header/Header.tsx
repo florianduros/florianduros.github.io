@@ -12,7 +12,10 @@ export function Header() {
         <h2 className="desktop:text-2xl">Software Engineer</h2>
         <div className="desktop:inline">
           <MdEmail className="inline" />
-          <a className="text-sm p-2" href="mailto:florian.duros@gmail.com">
+          <a
+            className="text-sm p-2 underline"
+            href="mailto:florian.duros@gmail.com"
+          >
             florian.duros@gmail.com
           </a>
         </div>

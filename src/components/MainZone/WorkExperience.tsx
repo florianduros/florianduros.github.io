@@ -27,7 +27,7 @@ export function WorkExperience() {
             Focusing on the frontend architecture and the development of the
             frontend features of the main product (Klaxoon).
           </p>
-          <Technologies technologies="React, Mobx, Mobx State Tree, Formik, Tachyons, Jest, Cypress, Backbone, Marionette, Webpack, Babel, NodeJs" />
+          <Technologies technologies="React, Mobx, Mobx State Tree, Formik, Tachyons, Jest, Cypress, Backbone, Marionette, WebGL, Pixi, Webpack, Babel, NodeJs" />
         </Row>
         <Row
           title={{
@@ -64,13 +64,12 @@ export function WorkExperience() {
           className="mt-6"
         >
           <p className="text-justify">
-            The project was a part of the Scertify™ SaaS software. It is a web
-            portal and allows users to realize audits on projects and
-            applications in order to detect violations of programming rules.
+            My role was to specify, to develop and to design an administration
+            application for the Scertify™ SaaS product.
           </p>
           <p className="text-justify">
-            My role was to specify, to develop and to design an application
-            displaying the administration data of Scertify™ SaaS.
+            Scertify allows users to realize audits on projects and applications
+            in order to detect violations of programming rules.
           </p>
           <Technologies technologies="GWT, Hibernate, Maven, Spring, Tomcat, Liferay, Jenkins" />
         </Row>

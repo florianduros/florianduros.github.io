@@ -8,6 +8,7 @@ export function Hobbies() {
         <li>History (Ancient history)</li>
         <li>Video games</li>
         <li>Animals</li>
+        <li>Bakery</li>
       </ul>
     </Container>
   );

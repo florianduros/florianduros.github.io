@@ -11,12 +11,12 @@ type RowProps = PropsWithChildren<{
 export function Row({ title: { date, job }, className, children }: RowProps) {
   return (
     <li className={className}>
-      <h3 className="font-bold">
+      <h2 className="font-bold">
         <span className="mobile:block desktop:inline-block desktop:w-48">
           {date}
         </span>
         {job}
-      </h3>
+      </h2>
       {children}
     </li>
   );
