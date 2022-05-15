@@ -3,7 +3,7 @@ import { MdEmail, MdPhone, MdPrint } from "react-icons/md";
 
 export function Header() {
   return (
-    <div className="desktop:px-10 desktop:pt-10 desktop:pb-5 desktop:w-header mobile:p-3 relative bg-neutral-700 text-white rounded-t-lg flex items-center">
+    <div className="desktop:px-10 desktop:pt-10 desktop:pb-5 desktop:w-header mobile:p-3 relative bg-neutral-700 print:bg-white text-white print:text-black rounded-t-lg flex items-center">
       <Photo />
       <div className="ml-5">
         <h1 className="desktop:text-5xl mobile:text-xl mobile:font-bold mb-2">
