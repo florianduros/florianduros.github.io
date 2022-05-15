@@ -4,7 +4,7 @@ import { MainZone } from "./components/MainZone";
 
 export function App() {
   return (
-    <div className="desktop:m-6 mobile:m-2 flex flex-col shadow-lg">
+    <div className="desktop:m-6 mobile:m-2 flex flex-col shadow-2xl">
       <Header />
       <div className="desktop:flex">
         <LeftZone />
