@@ -1,9 +1,9 @@
 import { Photo } from "./Photo";
-import { MdEmail, MdPhone } from "react-icons/md";
+import { MdEmail, MdPhone, MdPrint } from "react-icons/md";
 
 export function Header() {
   return (
-    <div className="desktop:px-10 desktop:pt-10 desktop:pb-5 mobile:p-3 bg-neutral-700 text-white rounded-t-lg flex items-center desktop:w-header">
+    <div className="desktop:px-10 desktop:pt-10 desktop:pb-5 desktop:w-header mobile:p-3 relative bg-neutral-700 text-white rounded-t-lg flex items-center">
       <Photo />
       <div className="ml-5">
         <h1 className="desktop:text-5xl mobile:text-xl mobile:font-bold mb-2">
@@ -26,6 +26,13 @@ export function Header() {
           </a>
         </div>
       </div>
+      <button
+        className="absolute underline m-2 top-0 right-0 text-xs"
+        onClick={() => window.print()}
+      >
+        <MdPrint className="inline text-base mr-1" />
+        Print
+      </button>
     </div>
   );
 }
