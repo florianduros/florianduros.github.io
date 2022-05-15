@@ -17,7 +17,7 @@ export function WorkExperience() {
         <Row
           title={{
             date: "Jul. 2018 - Ongoing",
-            job: "Software Engineer (Frontend), Klaxoon",
+            location: "Software Engineer (Frontend), Klaxoon",
           }}
         >
           <p className="text-justify">
@@ -32,7 +32,7 @@ export function WorkExperience() {
         <Row
           title={{
             date: "Mar. 2015 - Jul. 2018",
-            job: "Software Engineer, Hoppen",
+            location: "Software Engineer, Hoppen",
           }}
           className="mt-6"
         >
@@ -46,7 +46,7 @@ export function WorkExperience() {
         <Row
           title={{
             date: "Mar. 2014 - Aug. 2014",
-            job: "Software Engineer Internship, Capptain",
+            location: "Software Engineer Internship, Capptain",
           }}
           className="mt-6"
         >
@@ -59,7 +59,7 @@ export function WorkExperience() {
         <Row
           title={{
             date: "Jun. 2013 - Aug. 2013",
-            job: "Software Engineer Internship, Tocea",
+            location: "Software Engineer Internship, Tocea",
           }}
           className="mt-6"
         >

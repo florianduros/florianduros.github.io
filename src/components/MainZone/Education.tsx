@@ -9,7 +9,7 @@ export function Education() {
         <Row
           title={{
             date: "2011 - 2015",
-            job: "University of Rennes 1",
+            location: "University of Rennes 1",
           }}
         >
           <p className="text-justify">
@@ -19,7 +19,7 @@ export function Education() {
         <Row
           title={{
             date: "2009 - 2011",
-            job: "University of South Brittany",
+            location: "University of South Brittany",
           }}
           className="mt-6"
         >
