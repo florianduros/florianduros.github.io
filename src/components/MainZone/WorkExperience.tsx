@@ -27,7 +27,7 @@ export function WorkExperience() {
             Focusing on the frontend architecture and the development of the
             frontend features of the main product (Klaxoon).
           </p>
-          <Technologies technologies="React, Mobx, Mobx State Tree, Formik, Tachyons, Jest, Cypress, Backbone, Marionette, WebGL, Pixi, Webpack, Babel, NodeJs" />
+          <Technologies technologies="React, TypeScript, Mobx, Mobx State Tree, Formik, Tachyons, Jest, Cypress, Backbone, Marionette, WebGL, Pixi, Webpack, Babel, NodeJs" />
         </Row>
         <Row
           title={{
