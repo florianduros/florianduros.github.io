@@ -16,7 +16,7 @@ export function WorkExperience() {
       <ul className="list-disc ml-4">
         <Row
           title={{
-            date: "Jul. 2018 - Ongoing",
+            date: "Jul. 2018 - Aug. 2022",
             location: "Software Engineer (Frontend), Klaxoon",
           }}
         >
