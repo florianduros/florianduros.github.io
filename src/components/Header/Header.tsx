@@ -21,9 +21,6 @@ export function Header() {
         </div>
         <div className="desktop:inline desktop:ml-3">
           <MdPhone className="inline" />
-          <a className="text-sm pl-1" href="tel:+33 6 32 28 34 61">
-            +33 6 32 28 34 61
-          </a>
         </div>
       </div>
       <button
