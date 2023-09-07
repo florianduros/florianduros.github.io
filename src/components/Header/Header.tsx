@@ -1,5 +1,5 @@
 import { Photo } from "./Photo";
-import { MdEmail, MdPhone, MdPrint } from "react-icons/md";
+import { MdEmail, MdPrint } from "react-icons/md";
 
 export function Header() {
   return (
@@ -18,9 +18,6 @@ export function Header() {
           >
             florian.duros@gmail.com
           </a>
-        </div>
-        <div className="desktop:inline desktop:ml-3">
-          <MdPhone className="inline" />
         </div>
       </div>
       <button
